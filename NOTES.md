@@ -1,6 +1,6 @@
 # NOTES: Three Layers
 
-Your name: TODO
+Your name: Mariah Mitchell
 
 Fill each TODO. Write plain, short sentences. Do not delete the headings.
 
@@ -10,24 +10,24 @@ Write your prediction before you open any code. Then search. In the last column,
 
 | Action | Search word | My prediction (file) | Files found and what each does |
 |---|---|---|---|
-| Prints "Not yet. Try again." | `Not yet` | TODO | TODO |
-| Decides that the second miss shows the answer | `reveal` | TODO | TODO |
-| Saves one attempt | `save_attempt` | TODO | TODO |
-| Refuses the 11th problem | `SetFull` | TODO | TODO |
+| Prints "Not yet. Try again." | `Not yet` | app.py | app.py |
+| Decides that the second miss shows the answer | `reveal` | dataman/logic.py | dataman/logic.py |
+| Saves one attempt | `save_attempt` | dataman/store.py | dataman/store.py|
+| Refuses the 11th problem | `SetFull` | dataman/logic.py | dataman/logic.py |
 
 Search command: `grep -rn "SEARCH WORD" --include=*.py .`
 
 ## Part 2. What the program remembered [S1]
 
-After the restart, what did the program remember? TODO
+After the restart, what did the program remember? The program saved one attempt before the interruption.
 
-Which file made that possible? TODO
+Which file made that possible? dataman_store.json
 
 ## Part 3. The interface change [S1]
 
-What did you change in `app.py`? TODO
+What did you change in `app.py`? I reprhased the incorrect answer output message.
 
-Why did no test need to change? TODO
+Why did no test need to change? I only changed the output message, which does not affect the program or any calculations.
 
 ## Part 4. The rule in the real library [S2]
 
